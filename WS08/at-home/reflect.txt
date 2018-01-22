@@ -1,0 +1,14 @@
+1) When passing an array to a function is it "by address" or "by value" – explain what happens and what is meant by the two terms.
+   The only method to pass an array a function is a method "by address." 
+   In the first case, the address of the argument is passed from the main function to the Prototype of the called function.
+   In this case, the variable used in the prototype is a pointer which receives the address of the variable in the main function instead of the value itself. Passing by address allow to edit the original value of the variables.
+   On the other hand, when we pass by value, a copy of the values assigned to the variable in the main function is made and transferred to the variable included in the prototype of the called function.
+   Passing by value the original value is copied.
+ 
+2) Explain why functions with an array parameter are usually complemented with an additional integer parameter (reference specifics in this workshop to explain your answer).
+   Array are complemented with additional integer parameter for defining the size of the array . For Example in the function "search inventory" the integer SIZE is used in a for loop where 
+   was needed to search though the book array.	
+
+3) Why do some of the functions in this workshop specify "const" for the array parameters and not in others?
+   In this workshops the utility of "const" is being used in order to define that the content of the variable to which the const refer to  will not changed and cannot be changed.
+   This allow to pass value to the function safetly.

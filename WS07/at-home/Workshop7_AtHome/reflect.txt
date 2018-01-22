@@ -1,0 +1,18 @@
+1)	In 2 or 3 sentences explain the advantage of passing (receiving) values from a function through its parameters rather than through its return value? 
+	Passing values  using a Return type (integer, double, float) trough function it can be returned only one value.
+	Passing or receveing values through pointer is a dynamic method that allows the function to return with more than one value assigning the address to the variable.
+	Also, pointer allow to pass array from a caller to a called function saving memory space in the RAM.
+
+2)	Define the term dereference and identify an example in your code.
+	Using a pointer as dereference mean that sign * , for example in a Printf statement, ( in the case the * it acts as non-pointer variable) goes to the variable and pull the value out. 
+	In my code the Display Statement which calls the decompose Function works as dereference.
+
+3)	Explain what is stored in a pointer variable. 
+	In a pointer variable is stored the address of another variable of the same type. If we consider the example below  we might understand the funcionality
+	pointer.Considering the following variable inizialized before the maon function.
+		
+	int var = 5;
+	int  *prt = &var;
+
+	The value of 5 is stored in the variable of type integer name var and  the poiter named ptr store the address of the variable var.
+	The value stored in the variale var will be grabbed when  statement will run  inside the  the main function and the pointer will be used as dereferencing.

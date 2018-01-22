@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------
+Name: Alberto Laurenzi ID:150954162 
+Email: alaurenzi@myseneca.ca---------------------------------------------------------------------
+
+1-	Compare a C-style string to an array of chars.  What is the difference?
+
+	A C-style string is an array of  chars and they are stored  in memory sequentially ( one char after the other one) , the last meaningful character  is followed by the NULL terminator which represent the end of the string.
+	The initialization of  string can be as follow:
+	char name [ ] = "Alberto"; 
+	or cn be defined with the number insied the square braket 
+	char name [8] = "Alberto";
+			
+2-	What format string do you use to ensure that the number of input characters read by scanf() into a C-style string does not exceed the 10 bytes of space that you have allocated for the string?
+
+	The format needed for reading no  more than 10 byte is :  scanf ("%10[^\n]", xxxx).
+
+3-	Why does strcmp(const char*, const char*) return 0 for two matching strings?
+
+	The funcion strcmp, as any conversion in C language rely on the ASCII code; therefore, when two strings are compared each chararcter is converted in decimal number. The number of the first string is matched  with the first number of the second string 
+	and the second number of the first string is matched with the second number of the second string and so on, until the end of the both strings. If all numbers, hence all the characters are equal the function return 0.
+
+4-	If you concatenate "Hello" to "C" how many bytes of memory do you need to store the result?
+
+	I will need 6 byte for storing the characters - HelloC - and 1 byte for storing the NULL terminator(\0); therefore,  in total I will need 7 byte.

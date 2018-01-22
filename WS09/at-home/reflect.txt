@@ -1,0 +1,15 @@
+1)	What are the possible return values of the function readRecord? What does this return value represent?
+	The possible value that the readRecor can return are:
+	1) if the conversion between the  specifiers and the additional arguments is properly done, then the five address will be filled up and the return value will be 5 accordingly.
+	2) Any other numbers between 0 and 4 if some the conversion between the specifier and the additional arguments fail.
+
+2)	What is the difference between opening a file in r, w, and a+ mode?
+	The dirrerences are:
+	1) r mode open the file only for reading.
+	2) w mode open the file only for writing and if the file exist the content will be overwritten. If the file doesn't exist it will be created.
+	3) a+ mode open the file for reading and for writing. If the file exist the content will be appended to the previous.If the file doesn't exist it will be created.
+
+3)	Briefly explain the value of reading data from a file as opposed to reading all data from user input.
+	Reading data from a file save the user to input the data over again because it can be saved and stored persistently.
+	On the other hand, reading data from the user input takes more time and the data will not longer avaible therefore the user has to input data more than once. 
+	In this case the data is stored momentanely in the RAM.

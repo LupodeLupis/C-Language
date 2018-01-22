@@ -1,0 +1,14 @@
+1)	In one or two sentences explain why the arrays in this program have to be declared to hold 10 elements?
+	The arrays have to be declared always with highest number of elements that the problem  given allows you to store and the element must be greater than 0.
+	Because of the bounds checking, (which is a check that the compiler doesn't perform) an element, which is read through an index, cannont be used if it isn't within the range of the erray.
+
+2)	In two or three sentences explain the advantages and disadvantages of using matching arrays?
+ 	Arrays are critical when it is necessary to display several number of elements and the matching arrays are very useful when they  have to be categorized using a same index.
+	On the other hand, the requirement of matching arrays is to have availbale the number of the element in advance. It also can be said that matching array can be stored only element with the same types.
+	The use of matching arrays should be also considered really important while a code has to be develop in the future, because it might be possible to declare a large number of element that they won't be used.The consequence will be to occupy
+	a large amout of memory.
+	
+
+3)	Was the at home portion of this workshop too easy, just right or too hard? Why? 
+ 	All the workshops are quite challangeble for me. However, I found this home portion easier from the last one because expect for the Arrays the structure of the logic was 
+ 	similar , in particular for the Average part. 

@@ -1,0 +1,10 @@
+1)	In two or three sentences discuss the advantages of using an array of structs versus parallel arrays when dealing with related data 
+
+	Even though the performance of a program, whether the struct or parallel array are used is the same, using array of struct can have more advantage in term of managing data.
+	The struct of array allows to store under a single name variables of different type, they are also easy to read , undestandand and mantain (in the case the code 
+	has to shared with other)
+
+2)	The preferred method of declaring a struct data type is in a header file. Briefly explain why. Hint: this is explained in the notes.
+	The header file is a file extension .h and it is efficent because can be shared between more than one source files. 
+	When a structure is declared globally it useful to declare it in a separate file
+	 

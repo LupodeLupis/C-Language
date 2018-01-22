@@ -1,0 +1,20 @@
+1-	What do you think is the most important thing you learned in this workshop?
+
+I learnt how to use module and how to manipulate variabales with casting.
+
+2-	Why must you add .005 to the value derived when calculating the GST owing?
+
+I must add .005 because the total of the GST wont be rounded correctly with the number that is required to calcualate the balance owing losing 0.01Cents.
+It allows to replace the fuction to round up or round down and it force the number of the GST to be rounded at 1.13.
+
+
+3-	What is the result of a casting operation?
+
+In our exercize the result ot the casting opearting is printing out an interger number as a floating number. It works only for the operation that it is asked to operate
+and it doesn't add any value.
+
+
+4-	Why do you think you were required to use the modulus operator in this workshop?
+
+I think the use of modules has been useful because it allows to narrow mathematical operation such division chopping the fractional part and we had to used because through
+the operation of mudulus between integer we could have also practiced the casting operation.

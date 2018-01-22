@@ -1,0 +1,17 @@
+1)	Name all the iteration constructs.
+
+	- For (loop) 
+	- While (loop)
+	- Do while  (loop)
+
+2)	In two or three sentences explain the difference between a “do while” and a “while” loop?
+
+	In the "do while" loop the condition is evaluated after the first iteration and it keep running until the condition is TRUE.The iteration will be procesed at least once even if the following condition is FALSE.
+	In the "while" loop the condition is eveluated at the beginning and it keeps running until the condition is TRUE. If the condition is FALSE the iteration won't be processed and it will exit from the loop.
+
+
+3)	In two or three sentences explain what is meant by the term conditional expression? 
+
+	The conditional expression is included into alternative path and it means storing a value in variable depending on a TRUE\FAlSE codition between two expressions.The syntax of the conditional expression is as follow:
+	condition ? iteration : iteration.  If the codition is true the value of the first iteration will be assigned to the variable, if the condition is FALSE it will be assigned the second value.
+	That means for example, if we have a = 10 > 1 ? 'ok' : 'ko' , the condition is TRUE and 'ok' value will be assigned to the variable a

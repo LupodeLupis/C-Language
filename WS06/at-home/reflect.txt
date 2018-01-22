@@ -1,0 +1,14 @@
+1)	In 3 or 4 sentences explain the term “function” and briefly discuss the need for functions in any language?
+	Functions encapsulate code that can be used for modularity thorough the program. 
+	Functions include a header and a body. The header defines the ruturn type and list the parameters meanwhile the code block contain the list of instructions.
+	Functions are needed to avoid code duplication and can be reused. They are helpful because they make the code be more readable and "cleaner".
+	
+ 
+2)	Comment on the modularity and reusability of the addPositive and subtractPositive functions. (Hint: Each function was called twice for different purposes each time)
+	The two functions allow the code to be more compact and easy to maintain. By writing the two functions I do not have to write the code multiple times in the code 
+	and it will be easier for me to apply changes for what I am trying to do.
+
+
+3)	In 2 or 3 sentences explain how to send data to and receive data from functions? 
+	Functions receive data through parameters that are passed to them from the main function or other functions as arguments. 
+	Functions send data to its caller using the RETURN keyword.
