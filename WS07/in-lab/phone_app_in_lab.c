@@ -1,12 +1,3 @@
-/*
-Name:ALBERTO LAURENZI
-Student number:150954162
-Email:alaurenzi@myseneca.ca
-Workshop:W7_LAB
-Section:
-Date:
-*/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define SIZE 3
