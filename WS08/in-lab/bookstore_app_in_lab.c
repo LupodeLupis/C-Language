@@ -1,14 +1,3 @@
-/*
-Name:ALBERTO LAURENZI
-Student number:150954162
-Email:alaurenzi@myseeca.com
-Workshop:Lab8
-Section:
-Date:7.14.2017
-*/
-
-
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define MAX_BOOKS 10
