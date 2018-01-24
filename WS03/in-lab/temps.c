@@ -1,8 +1,4 @@
-// Name:ALBERTO LAURENZI
-// Student Number:150954162
-// Email:alaurenzi@myseneca.ca
-// Section:SKK
-// Workshop:W3_lab
+
 
 #include <stdio.h>
 
