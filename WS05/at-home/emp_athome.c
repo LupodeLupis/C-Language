@@ -1,12 +1,3 @@
-/*
-Name:ALBERTO LAURENZI
-Student number:
-Email:alaurenzi@myseneca.ca
-Workshop:W5_HOME
-Section:
-Date:06.20.2017
-*/
-
 #include <stdio.h>
 
 // Copy your source code from in_lab file to here
