@@ -1,5 +1,3 @@
-//ALBERTO LAURENZI 150954162//
-
 #include <stdio.h>
 
 int main() {
