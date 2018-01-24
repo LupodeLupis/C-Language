@@ -1,10 +1,3 @@
-// ---------------------------------------
-// Name: ALBERTO LAURENZI
-// ID:150954162
-// Email:alaurenzi@myseneca.ca
-// Workshop:Lab_09
-// ---------------------------------------
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define MAX_TITLE_SIZE 20
