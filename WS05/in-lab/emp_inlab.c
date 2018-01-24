@@ -1,11 +1,4 @@
-/*
-Name:ALBERTO LAURENZI
-Student number:150954162
-Email:alaurenzy@myseneca.ca
-Workshop:W5_LAB
-Section:
-Date:06/15/2017
-*/
+
 
 #include <stdio.h>
 
