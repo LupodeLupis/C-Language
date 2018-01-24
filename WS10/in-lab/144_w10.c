@@ -1,9 +1,3 @@
-/*----------------------------------------
-Name :ALBERTO LAURENZI
-ID   :150954162
-Email:alaurenzi@myseneca.ca
------------------------------------------*/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
