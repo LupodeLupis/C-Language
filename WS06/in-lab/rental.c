@@ -1,13 +1,3 @@
-/*
-== Vehicle Rentals ==
-
-Author	: Gayan Gamage
-Date	: 14-02-2017
-Revision: 1.0
-Workshop: #6 in-Lab
-
-*/
-
 #include <stdio.h>
 
 #define distRate1  0.69			// Rate per Kilometer from 0km to 100km (inclusive)
